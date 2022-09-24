@@ -130,7 +130,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
         { MODKEY|ShiftMask,             XK_z,      togglescratch,  {.ui = 0 } },
         { MODKEY|ShiftMask,             XK_x,      togglescratch,  {.ui = 1 } },
-        { MODKEY|ShiftMast,             XK_p,      togglescratch,  {.ui = 2 } },
+        { MODKEY|ShiftMask,             XK_p,      togglescratch,  {.ui = 2 } },
 	{ MODKEY,                       XK_n,      togglealttag,   {0} },
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
