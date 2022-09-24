@@ -59,7 +59,7 @@ static const Rule rules[] = {
         { "Firefox",  NULL,                     NULL,           1 << 8,                 0,                       -1 },
         { NULL,           "spterm",             NULL,           SPTAG(0),               1,                       -1 },
         { NULL,           "spfm",               NULL,           SPTAG(1),               1,                       -1 },
-        { NULL,           "keepassxc",  NULL,           SPTAG(2),               0,                       -1 },
+        { NULL,           "keepassxc", 		NULL,           SPTAG(2),               0,                       -1 },
 
 };
 
@@ -128,8 +128,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-        { MODKEY,                       XK_y,      togglescratch,  {.ui = 0 } },
-        { MODKEY,                       XK_u,      togglescratch,  {.ui = 1 } },
+        { MODKEY,                       XK_<,      togglescratch,  {.ui = 0 } },
+        { MODKEY,                       XK_z,      togglescratch,  {.ui = 1 } },
         { MODKEY,                       XK_x,      togglescratch,  {.ui = 2 } },
 	{ MODKEY,                       XK_n,      togglealttag,   {0} },
 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
